@@ -1,0 +1,66 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+
+  background: url(backgroundContact.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1{
+	font-size: 2rem;
+	color: #28a745;
+}
+
+h6{
+	font-size: 1rem;
+	color: #007bff;
+}
+
+
+hr{
+	border-color: #28a745;
+	border-width: 5px;
+	max-width: 65px;
+}
+
+.bord{
+	border-style: solid;
+	border-color: #28a745;
+	border-width: 2px;
+}
+
+.field-names{
+	font-size: 1rem;
+	color: #007bff;
+}
+
+
+.buffer{
+	height: 2rem;
+}
+
+.btn{
+	font-weight: 700;
+	border-radius: 300px;
+}
+
+.btn-primary{
+	background-color: #007bff;
+	border-color: #007bff;
+}
+
+.btn-primary:hover{
+	background-color: #28a745;
+	border-color: #28a745;
+	border-width: 5px;
+}
+
+.btn-xl{
+	padding: 1rem 2rem;
+}
+
