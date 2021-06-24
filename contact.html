@@ -1,59 +1,213 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Startup</title>
+<html lang="en">
 
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<head>
+  <meta charset="UTF-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <meta content="description" name="description">
+  <meta name="google" content="notranslate" />
+  <meta content="Mashup templates have been developped by Orson.io team" name="author">
 
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <!-- Disable tap highlight on IE -->
+  <meta name="msapplication-tap-highlight" content="no">
+  
+  <link href="./assets/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="./assets/favicon.ico" rel="icon">
 
-    <!-- Bootstrap CSS from a CDN. This way you don't have to include the bootstrap file yourself -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    
-    <!-- Your own stylesheet -->
-    <link rel="stylesheet" type="text/css" href="styleContact.css">
-  </head>
+ 
+
+  <title>Contact</title>  
+
+  <link href="./main.a3f694c0.css" rel="stylesheet">
+
+  <style>
+  	.white-text-container{
+  		border-right: 2px solid white;
+  	}
+
+	.nested{
+	    display: grid;
+	    grid-auto-rows: 350px;
+	}
+
+  </style>
+
+
+</head>
   <script language="JavaScript" src="gen_validatorv31.js" type="text/javascript"></script>
-  <body>
-    <div class="container d-flex align-items-center justify-content-center h-100">
-      <div class="row">
-        <header class="text-center col-12">
-          <h1 class="text-uppercase"><strong></strong></h1>
-        </header>
-        <div class="buffer col-12"></div>
-        <section class="text-left col-12">
-          <h1>Contact opnemen</h1>
-          <form method="POST" name="contactform" action="contact-form-handler.php"> 
-            <p>
-              <label class="field-names" for='name'>Naam:</label> <br>
-              <input class="bord" type="text" name="name">
-            </p>
-            <p>
-              <label class="field-names" for='email'>Email Adres:</label> <br>
-              <input class="bord" type="text" name="email"> <br>
-            </p>
-            <p>
-              <label class="field-names" for='message'>Bericht:</label> <br>
-              <textarea class="bord" name="message"></textarea>
-            </p>
-              <input class="btn btn-primary btn-xl" type="submit" value="Verstuur"><br>
-          </form>
-            <p>
-             <div class="buffer col-12"></div>
-              <h6>
-                Di&euml;tist: Juli&euml;tte Bhagwat<br>
-                Mobiel: 06-308 316 75<br>
-                Email: info@nutri-balance.nl<br>
-              <h6>
-            </p>
-        </section>
-      </div>
-    </div>
 
-    <script language="JavaScript">
+<body>
+
+      <!-- Add your content of header -->
+      <header>
+        <nav class="navbar  navbar-fixed-top navbar-default">
+          <div class="container">
+            <div class="collapse navbar-collapse" id="navbar-collapse-uarr">
+              <ul class="nav navbar-nav navbar-right">
+                <li>
+                  <a href="./index.html" title=""> <img class="logo" src="./assets/images/logo.png">
+                  </a>
+                </li>
+                <li><a href="./index.html" title="" class="active">Home</a></li>
+                <li><a href="./dietist.html" title="">Diëtist</a></li>
+                <li><a href="./behandelingen.html" title="">Behandelingen</a></li>
+                <li><a href="./werkwijze.html" title="">Werkwijze</a></li>
+                <li><a href="./vergoedingentarieven.html" title="">Vergoeding en Tarieven</a></li>
+                <li><a href="./contact.html" title="">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
+  
+   <div class="grid-map">
+    <div class="text-center">
+      <h1>Contactformulier</h1>
+    </div>   
+    <form method="POST" class="reveal-content contact-form" name="contactform" action="contact-form-handler.php"> 
+      <!-- <h3 style="color:black"><strong>Contactformulier</strong></h3> -->
+      <p>
+        <!-- <label class="field-names" for='name'>Naam:</label> <br> -->
+        <input class="form-control" type="text" name="name" placeholder="Voornaam en Achternaam"><br>
+      </p>
+      <p>
+        <!-- <label class="field-names" for='email'>Email Adres:</label> <br> -->
+        <input class="form-control" type="text" name="email" placeholder="Email Adres"> <br>
+      </p>
+      <p>
+        <!-- <label class="field-names" for='message'>Bericht:</label> <br> -->
+        <textarea class="form-control" name="message" placeholder="Voer uw bericht in"></textarea>
+      </p>
+        <input class="btn btn-primary btn-xl" type="submit" value="Verstuur"><br><br>
+    </form>
+  </div>
+  
+  <br>
+  <br>
+
+
+
+  <div class="text-center">
+    <h1>Praktijklocatie</h1>
+  </div>   
+   <div class="grid-map">
+      <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=braamslaan%204%20delft&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://kissanime-ws.com">kissanime</a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style><a href="https://google-map-generator.com">google map generator</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style>
+      </div></div>
+  </div>
+  
+  <br>
+  <br>
+
+  <div class="section-container">
+    <div class="container">
+        <div class="row">
+              <div class="col-xs-12 col-md-8 col-md-offset-2">
+                <div class="text-center">
+                <h1>Privacy</h1>
+                </div>   
+                  <p class="section-container-spacer">
+                   Nutri-Balance gaat zorgvuldig en vertrouwelijk om met uw persoonsgegevens. Dat was vastgelegd in de Wet Bescherming Persoonsgegevens (WBP) en met ingang van 25 mei 2018 is dat de Algemene Verordening Gegevensbescherming (AVG).  
+                  Als u gebruikmaakt van diensten van Nutri-Balance, hebben wij gegevens van u nodig. Die verstrekt u via de telefoon (bijvoorbeeld bij het maken van een afspraak), via het contact met de diëtist of via e-mail.
+                  <br><br><strong>Welke persoonsgegevens bewaren wij?</strong><br>
+                  Wij bewaren de volgende persoonsgegevens: naam, geboortedatum, adresgegevens, BSN-nummer, vast en/of mobiel nummer, gegevens zorgverzekering (naam, polisnummer), e-mailadres en bepaalde noodzakelijke medische gegevens. 
+                  
+                  <br><br><strong>Waarom is dat nodig?</strong><br> Nutri-Balance heeft uw persoonsgegevens nodig om haar werkzaamheden uit te voeren om u een persoonlijk dieetadvies te kunnen geven en dit vervolgens aan u te verstrekken.
+                  <br>
+                  In sommige gevallen gaat het om zogenaamde bijzondere en gevoelige persoonsgegevens van u. Dat doen wij alleen als dat noodzakelijk is met betrekking tot uw behandeling. Uw persoonsgegevens worden niet gebruikt voor commerciële doeleinden.
+                  <br><br><strong>Hoe lang bewaren wij uw gegevens?</strong><br> Nutri- Balance bewaart uw dossier tot 20 jaar na beëindiging van de dieetbehandeling (verplichting volgens de Wet op de Geneeskundige Behandelovereenkomst).
+                  
+                  <br><br><strong>Delen met anderen:</strong><br> Nutri- Balance zal uw gegevens indien noodzakelijk en met uw instemming verstrekken aan andere zorgverleners voor behandeldoeleinden, zoals rapportage aan de verwijzer of overdracht naar een andere instelling bij opname. Nutri-Balance heeft met andere zorgverleners overeenkomsten voor veilige gegevensoverdracht.
+                  <br><br>
+                  Nutri-Balance zal uw gegevens uitsluitend verstrekken aan een ICT-hostingorganisatie om uw gegevens veilig op te bergen. Met deze organisatie heeft Nutri-Balance een overeenkomst om te zorgen voor een standaardniveau van beveiliging en vertrouwelijkheid voor dit soort gegevens. Nutri-Balance blijft verantwoordelijk voor deze verwerking van uw persoonsgegevens.
+
+                  <br><br><strong>Gegevens inzien, aanpassen en verwijderen:</strong><br> U heeft het recht om uw persoonsgegevens in te zien, te (laten) corrigeren of te (laten) verwijderen. U kunt een verzoek tot inzage, correctie of verwijdering sturen naar info@nutri-balance.nl. Hiervoor zal een afspraak met u worden gemaakt, omdat legitimatie daarvoor altijd noodzakelijk is om aan te tonen dat het om uw persoonsgegevens gaat.
+                  </p>
+                  
+               </div>
+         </div>
+    </div>
+</div>
+
+
+  <div class="section-container">
+    <div class="container">
+        <div class="row">
+              <div class="col-xs-12 col-md-8 col-md-offset-2">
+                <div class="text-center">
+                <h1>Klachtenregeling</h1>
+                </div>   
+                  <p class="section-container-spacer">Wij doen er alles aan om het contact en de begeleding zo prettig mogelijk te laten verlopen. Toch kan het gebeuren dat u niet helemaal tevreden bent. Wanneer u een klacht heeft, probeert u deze dan eerst te bespreken met de diëtist. Diëtistenpraktijk Nutri-Balance is aangesloten bij het Klachten loket Paramedici.</p>
+               </div>
+         </div>
+    </div>
+</div>
+
+
+
+<div class="wrapper-2">
+        <div class="white-text-container">
+                <div class="text-center">
+                    <h3><strong>Postadres:</strong></h3>
+                     <p>
+                        <div class="pl_about_us_widget  ">
+                            <hr>
+                            <p>Diëtistenpraktijk Nutri-Balance <br> Antonius Heggelaan 36<br>2493 CD 's Gravenhage </p>
+                            <hr>
+                            <br>
+                            <p class='contact_detail'><i class='fa fa-phone'></i><span>+31(0) 6 30 831 675</span></p>
+                            <p class='contact_detail'><i class='fa fa-envelope'></i><span><a href='mailto:info@nutri-balance.nl'>info@nutri-balance.nl</a></span></p>   
+                        </div>
+                    </p>
+                </div>
+        </div>
+        <div class="white-text-container">
+                <div class="text-center">
+                    <h3><strong>Locatie:</strong></h3>
+                     <p>
+                        <div class="pl_about_us_widget  ">
+                            <hr>
+                            <p>Diëtistenpraktijk Nutri-Balance <br> Brahmslaan 4<br> 2625 BW Delft </p>
+                            <hr>
+                            <br>
+                            <p class='contact_detail'><i class='fa fa-phone'></i><span>+31(0) 6 30 831 675</span></p>
+                            <p class='contact_detail'><i class='fa fa-envelope'></i><span><a href='mailto:info@nutri-balance.nl'>info@nutri-balance.nl</a></span></p>   
+                        </div>
+                    </p>
+                </div>
+        </div>
+</div>
+
+
+
+
+
+
+<footer>
+    <div class="section-container footer-container">
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-4">
+                        <p>© Copyright 2021 | Diëtistenpraktijk Nutri-Balance info@nutri-balance.nl</p>    
+                    </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+<br>
+
+ <script language="JavaScript">
     // Code for validating the form
     // Visit http://www.javascript-coder.com/html-form/javascript-form-validation.phtml
     // for details
@@ -61,10 +215,34 @@
     frmvalidator.addValidation("name","req","Please provide your name"); 
     frmvalidator.addValidation("email","req","Please provide your email"); 
     frmvalidator.addValidation("email","email","Please enter a valid email address"); 
-    </script>
-    <!--
-    Sample code from:
-    http://www.html-form-guide.com/contact-form/php-email-contact-form.html
-    -->    
-  </body>
+ </script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function (event) {
+    navActivePage();
+  });
+</script>
+
+<!-- Google Analytics: change UA-XXXXX-X to be your site's ID 
+
+<script>
+  (function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date(); a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+  ga('create', 'UA-XXXXX-X', 'auto');
+  ga('send', 'pageview');
+</script>
+
+-->
+<!-- Google maps  -->
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDzA22auDNIFSRiTPytfZVhtuFG_KHBhFQ&callback=googleMapInit"></script>
+<!-- end Google Maps -->
+
+
+
+<script type="text/javascript" src="./main.41beeca9.js"></script></body>
+
 </html>
