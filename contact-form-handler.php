@@ -1,6 +1,6 @@
 <?php 
 $errors = '';
-$myemail = 'info@nutri-balance.nl';//<-----Put Your email address here.
+$myemail = 'dietist@nutri-balance.nl';//<-----Put Your email address here.
 if(empty($_POST['name'])  || 
    empty($_POST['email']) || 
    empty($_POST['message']))
